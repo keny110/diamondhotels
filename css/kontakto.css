@@ -87,3 +87,41 @@ section{
   display: table;
   clear: both;
 }
+
+.box{
+  width: 50%;
+  float: left;
+}
+
+.box form{
+  width: 96%;
+  margin-left: 2%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.rit{
+  width: 100%;
+}
+
+.rit label{
+  width: 96%;
+  margin-left: 2%;
+  color: white;
+}
+
+.rit input{
+  width: 96%;
+  margin-left: 2%;
+  background: white;
+  border: 2px solid black;
+  color: black;
+  
+}
+
+.inbox{
+  width: 50%;
+  float: right;
+}
