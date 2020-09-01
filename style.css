@@ -1,0 +1,159 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  background: white;
+}
+
+header{
+  width: 100%;
+  height: 150px;
+  background: white;
+  border-bottom: 4px solid black
+}
+
+header::after{
+  content: '';
+  clear: both;
+  display: table;
+}
+
+.in{
+  width: 30%;
+  height: 150px;
+  float: left;
+}
+
+.in img{
+  width: 50%;
+  height: 110px;
+  margin-left: 25%;
+  margin-top: 20px;
+}
+
+.out{
+    width: 70%;
+    height: 150px;
+    float: right;
+}
+
+.out nav{
+
+}
+
+.out nav ul{
+
+}
+
+.out nav ul li{
+  display: inline-block;
+  text-align: center;
+  width: 13%;
+  margin-left: 2%;
+  margin-top: 70px;
+  border-bottom: 3px solid white;
+}
+
+.out nav ul li:hover{
+  border-bottom: 3px solid yellow;
+}
+
+.out nav ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.out nav ul li a:hover{
+  color: yellow;
+}
+
+section{
+  width: 100%;
+}
+
+.contanier{
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.contanier::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.contanier h3{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.box{
+  width: 30%;
+  float: left;
+}
+
+.box img{
+  width: 90%;
+  margin-left: 5%;
+  background: white;
+}
+
+.inbox{
+  width: 70%;
+  float: right;
+}
+
+.inbox h2{
+  text-align: center;
+  border-bottom: 2px solid black;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 30px;
+}
+
+.inbox p{
+  width: 80%;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-left: 10%;
+  font-size: 25px;
+}
+
+.net{
+  width: 20%;
+  height: 250px;
+  margin-left: 10%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border:2px solid black;
+  border-radius: 5px;
+  float: left;
+  text-align: center;
+}
+
+.net:hover{
+  background: linear-gradient(blue 20%,darkblue 80%);
+  box-shadow: 0 0 20px blue;
+  color: white;
+  border: 2px solid blue;
+}
+
+.net small{
+  font-size: 100px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: black;
+}
+
+.net p{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
