@@ -119,10 +119,13 @@ section{
 
 .inbox{
   width: 70%;
+  float: right;
 }
 
 .inbox h2{
   font-size: 25px;
+  width: 90%;
+  margin-left: 5%;
   text-align: center;
   border-bottom:2px solid black;
   float: right;
