@@ -87,3 +87,26 @@ section{
   display: table;
   clear: both;
 }
+
+.box{
+  width: 30%;
+  background: white;
+}
+
+.inbox{
+  width: 70%;
+}
+
+.inbox h2{
+  font-size: 30px;
+  text-align: center;
+  border-bottom:2px solid black;
+  margin-left: 5%;
+  width: 90%;
+}
+
+.inbox p{
+  font-size: 40px;
+  width: 90%;
+  margin-left: 5%;
+}
